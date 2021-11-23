@@ -21,8 +21,8 @@ function Header() {
   return (
     <header>
       <div className="container">
-        <a href="/">
-          <img src={ logo } alt="Logo" />
+        <a className="logo" href="/">
+          <img id="logo" src={ logo } alt="Logo" />
         </a>
         <nav>
           { language === 'english' && text('About', 'Projects','Contact') }

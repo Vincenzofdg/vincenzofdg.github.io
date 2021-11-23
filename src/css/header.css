@@ -6,17 +6,20 @@ header .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   height: 7vh;
   width: 95%;
-  
   margin: auto;
 }
 
-header img {
-  width: 150px;
+.logo {
   height: inherit;
-  padding: 15px 5px;
+  width: 5vw;
+}
+
+#logo {
+  height: inherit;
+  width: inherit;
+  padding: 8px;
 }
 
 header nav ul {
