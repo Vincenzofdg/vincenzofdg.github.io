@@ -1,13 +1,9 @@
 import React from 'react';
 
-import '../css/c-loader.css';
+import { Load } from '../styles'
 
 function Loading() {
-  return ( 
-    <div className="c-loader">
-      <div className="animation" />
-    </div>
-  )
+  return ( <Load><div /></Load> )
 }
 
 export default Loading;
