@@ -3,7 +3,7 @@
 npm install react-router-dom --save
 ```
 ```
-npm install react-responsive-screen --save
+npm install styled-components
 ``
 
 **File Created:**
