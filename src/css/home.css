@@ -1,0 +1,15 @@
+.main-container {
+  height: 93vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.upper-container {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-evenly;
+}

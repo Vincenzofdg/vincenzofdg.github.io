@@ -1,0 +1,29 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+  display: flex;
+  justify-content: right;
+}
+
+footer .container {
+  width: 15vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer .container .conteiner-options {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer .container .conteiner-options h4 {
+  width: 50%;
+  text-align: center;
+}
+
+footer .container .conteiner-options h4:hover {
+  background: rgba(117, 16, 247, 0.35)
+}
