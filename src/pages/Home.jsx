@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 import Loading from '../components/Loading'
 
 import '../css/home.css'
-
+import '../css/responsive.css'
 import hero from '../img/hero.svg'
 import avatar from '../img/avatar.svg'
 

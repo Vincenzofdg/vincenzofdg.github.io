@@ -1,29 +1,36 @@
 footer {
-  position: fixed;
+  position: absolute;
   bottom: 0;
+  right: 0;
+
+  width: 15%;
+  height: 1.5vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer #language {
+  background: rgba(117, 16, 247, 0.55);
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .conteiner-options {
+  background-color: rgb(187, 149, 238);
   width: 100%;
-
-  display: flex;
-  justify-content: right;
-}
-
-footer .container {
-  width: 15vw;
   display: flex;
   justify-content: space-evenly;
 }
 
-footer .container .conteiner-options {
-  width: 60%;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-footer .container .conteiner-options h4 {
+footer .conteiner-options #option {
   width: 50%;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-footer .container .conteiner-options h4:hover {
-  background: rgba(117, 16, 247, 0.35)
+footer .conteiner-options #option:hover {
+  background: rgba(117, 16, 247, 0.4);
 }

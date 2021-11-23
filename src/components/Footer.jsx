@@ -2,26 +2,19 @@ import React, { useContext } from 'react';
 import MyContext from '../context/MyContext';
 
 import '../css/footer.css';
+// import '../css/responsice.css';
 
 function Footer() {
   const { language, setLanguage } = useContext(MyContext);
 
-  const text = (word01, word02, word03) => {
-    return (
-      <div className="container">
-        <h4>{ word01 }</h4>
-        <div className="conteiner-options">
-          <h4 onClick={ () => setLanguage('english') }>{ word02 }</h4>
-          <h4 onClick={ () => setLanguage('portuguese') }>{ word03 }</h4>
-        </div>
-      </div>
-    ) 
-  }
-
   return (
     <footer>
-      { language === 'english' && text('Language:', 'English', 'Portuguese') }
-      { language === 'portuguese' && text('Idioma:', 'Inglês', 'Português') }
+      <h4 id="language">{ language === 'english' ? 'Language:' : 'Idioma:' }</h4>
+
+      <div className="conteiner-options">
+        <h4 id="option" onClick={ () => setLanguage('english') }>{ language === 'english' ? 'English' : 'Inglês' }</h4>
+        <h4 id="option" onClick={ () => setLanguage('portuguese') }>{ language === 'english' ? 'Portuguese' : 'Português' }</h4>
+      </div>
     </footer>
   )
 }
