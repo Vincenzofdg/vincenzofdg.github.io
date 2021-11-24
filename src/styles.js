@@ -46,10 +46,6 @@ export const Body = styled.div`
       font-size: 1.1rem;
     }
 
-    #avatar {
-      img { width: 180px; }
-    }
-
     #wallpaper {
       img { width: 400px; }
     }
@@ -151,8 +147,8 @@ export const Navegation = styled.div`
 
 export const Load = styled.div`
 
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
