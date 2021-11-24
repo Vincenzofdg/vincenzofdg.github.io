@@ -11,9 +11,9 @@ function Header() {
   const text = (link01, link02, link03) => {
     return (
       <ul>
-        <li><Link to="/about">{ link01 }</Link></li>
-        <li><Link to="/projects">{ link02 }</Link></li>
-        <li><Link to="/contact">{ link03 }</Link></li>
+        <li><Link onClick={ () => setToggle(false) } to="/about">{ link01 }</Link></li>
+        <li><Link onClick={ () => setToggle(false) } to="/projects">{ link02 }</Link></li>
+        <li><Link onClick={ () => setToggle(false) } to="/contact">{ link03 }</Link></li>
       </ul>
     )
   }

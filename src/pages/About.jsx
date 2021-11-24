@@ -3,7 +3,6 @@ import MyContext from '../context/MyContext';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-// import '../css/about.css'
 import { Description } from '../styles'
 import profile from '../img/profile.jpeg'
 
