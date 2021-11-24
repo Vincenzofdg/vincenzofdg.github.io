@@ -20,9 +20,9 @@ function Header() {
 
   return (
     <Navegation>
-      <a className="logo" href="/">
-        <img id="logo" src={ logo } alt="Logo" />
-      </a>
+      <span>
+        <img onClick={ () => window.location.replace('/', '_self') } src={ logo } alt="Logo" />
+      </span>
       <nav>
         { language === 'english' && text('About', 'Projects','Contact') }
         { language === 'portuguese' && text('Sobre', 'Projetos', 'COntato') }

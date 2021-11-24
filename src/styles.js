@@ -19,48 +19,58 @@ export const Body = styled.div`
 
 export const Navegation = styled.div`
 
-  background-color:  #7510f7;
+  background-color: #7510f7;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   height: 7vh;
   width: 100%;
-  margin: auto;
 
   .menu-toggle {
     display: none;
   }
 
-  a {
+  span {
     height: inherit;
-    width: 5vw;
+    margin-left: 10%;
+    display: flex;
+    justify-content: right;
 
     img {
       width: 80px;
       height: inherit;
       padding: 7px;
+
+      :hover {
+        transform: scale(1.05);
+      }
     }
   }
 
-  ul {
-    display: flex;
-    li {
-      list-style: none;
+  nav {
+    margin-right: 10%;
 
-      a {
-        text-decoration: none;
-        color: white;
-        text-transform: uppercase;
-        font-size: 1.8rem; 
-        padding: 2.4rem;
-        transition: all 250ms linear 0s;
-
-        :hover {
-          background: rgba(28, 28, 28, 0.45);
+    ul {
+      display: flex;
+      li {
+        list-style: none;
+  
+        a {
+          text-decoration: none;
+          color: white;
+          text-transform: uppercase;
+          font-size: 1.8rem; 
+          padding: 2.4rem;
+          transition: all 250ms linear 0s;
+  
+          :hover {
+            background: rgba(28, 28, 28, 0.45);
+          }
         }
       }
     }
   }
+
 
   // Responsividade
   @media (max-width: 600px) {
@@ -68,6 +78,7 @@ export const Navegation = styled.div`
     
     .menu-toggle {
       display: block;
+      margin-right: 10%;
       width: 40px;
       height: 30px;
 
