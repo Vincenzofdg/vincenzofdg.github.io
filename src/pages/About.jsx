@@ -23,7 +23,6 @@ function About() {
                 I dropped university in <time><b>2021</b></time> because I expected that would be more classes about programming skills. Two mounths after dropping unisersity I started studing Web Development at <a href="https://www.betrybe.com/" target="blank">Trybe</a>.
               </p>
             </div>
-
             <div className="lower-container">
                 <img src={ profile } alt="Profile" />
               <div className="skill-container">
@@ -59,8 +58,6 @@ function About() {
                 Eu acabei saindo da faculdade em <time><b>2021</b></time> pois eu entrei tendo a expectativa que haveria mais aulas voltadas à programação. Após dois meses de ter saido da Universidade eu começei a estudar Desenvolvimento Web na <a href="https://www.betrybe.com/" target="blank">Trybe</a>.
               </p>
             </div>
-
-
             <div className="lower-container">
                 <img src={ profile } alt="Profile" />
               <div className="skill-container">
@@ -84,10 +81,9 @@ function About() {
               </div>
             </div>
           </Description>
-        ) }
+        )}
       <Footer />
     </>
-
   )
 }
 

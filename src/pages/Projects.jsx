@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 function Projects() {
 
@@ -8,6 +9,7 @@ function Projects() {
     <div>
       <Header />
       <h1>PROJECTS</h1>
+      <Footer />
     </div>
   )
 }
