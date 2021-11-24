@@ -57,8 +57,7 @@ export const Navegation = styled.div`
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  /* height: 5vh; */
-  height: 50px;
+  height: 7vh;
 
   .menu-toggle {
     display: none;
