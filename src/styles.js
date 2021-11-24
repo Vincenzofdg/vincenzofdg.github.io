@@ -73,15 +73,18 @@ export const Navegation = styled.div`
 
 
   // Responsividade
+  @media (max-width: 2050px) {
+    span { margin-left: 3%; }
+    nav { margin-right: 2%; }
+  }
+
   @media (max-width: 600px) {
-    span {
-      margin-left: 1%;
-    }
+    span { margin-left: 2%; }
     nav { display: none; }
     
     .menu-toggle {
       display: block;
-      margin-right: 2%;
+      margin-right: 3%;
       width: 40px;
       height: 30px;
 
