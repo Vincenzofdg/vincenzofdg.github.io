@@ -1,7 +1,9 @@
 import styled from "styled-components";
 
 export const Body = styled.div`
+  /* height: 93vh; */
   height: 93vh;
+  background-color: red;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -15,15 +17,17 @@ export const Body = styled.div`
     justify-content: space-evenly;
   }
 
-  #wallpaper {
+  .lower-container {
+    background-color: green;
       width: 100%;
-      
-      img { width: 700px; }
+      img { 
+        width: 700px;
+        height: 100%; 
+      }
     }
 
   @media (max-width: 700px) {
-
-    #wallpaper {
+    .lower-container {
       img { width: 600px; }
     }
   }
@@ -36,7 +40,7 @@ export const Body = styled.div`
       img { width: 220px; }
     }
 
-    #wallpaper {
+    .lower-container {
       img { width: 500px; }
     }
   }
@@ -45,7 +49,7 @@ export const Body = styled.div`
       font-size: 1.1rem;
     }
 
-    #wallpaper {
+    .lower-container {
       img { width: 400px; }
     }
   }
@@ -57,8 +61,8 @@ export const Navegation = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 7vh;
   width: 100%;
+  height: 7vh;
 
   .menu-toggle {
     display: none;
@@ -72,7 +76,7 @@ export const Navegation = styled.div`
 
     img {
       width: 80px;
-      height: inherit;
+      height: 100%;
       padding: 7px;
 
       :hover {
@@ -175,7 +179,7 @@ export const Language = styled.footer`
   right: 0;
 
   width: 15%;
-  height: 1.5vw;
+  height: 4vh;
   display: flex;
   justify-content: space-between;
 

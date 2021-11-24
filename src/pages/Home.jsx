@@ -28,7 +28,7 @@ function Home() {
               <img src={ avatar } alt="Avatar" />
             </div>
           </div>
-          <div id="wallpaper">
+          <div className="lower-container">
             <img src={ hero } alt="hero" />
           </div>
         </Body>
