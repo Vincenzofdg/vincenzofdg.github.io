@@ -152,6 +152,16 @@ export const Navegation = styled.div`
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
+        ul {
+          /* background-color: red; */
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          height: 50vh;
+
+          li { font-weight: bolder; }
+        }
       }
 
       .menu-toggle {
