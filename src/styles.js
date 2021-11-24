@@ -145,8 +145,7 @@ export const Navegation = styled.div`
       height: 100vh;
       z-index: 10;
 
-      nav { 
-        /* background-color: red; */
+      nav {
         height: 100vh;
         display: flex;
         flex-direction: column;
@@ -154,20 +153,26 @@ export const Navegation = styled.div`
         align-items: center;
 
         ul {
-          /* background-color: red; */
           display: flex;
           flex-direction: column;
           justify-content: space-evenly;
           height: 50vh;
 
-          li { font-weight: bolder; }
+          li { 
+            font-weight: bolder; 
+
+            a {
+              font-size: 2.6rem;
+              transition-duration: 0.5s;
+            }
+          }
         }
       }
 
       .menu-toggle {
         position: absolute;
-        margin-right: 60px;
-        margin-top: 20px;
+        margin-right: 65px;
+        margin-top: 18px;
         right: 0;
         top: 15;
 
