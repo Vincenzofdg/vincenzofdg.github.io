@@ -3,60 +3,54 @@ import MyContext from '../context/MyContext';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-import '../css/about.css'
+// import '../css/about.css'
+import { Description } from '../styles'
 import profile from '../img/profile.jpeg'
 
 function About() {
   const { language } = useContext(MyContext);
 
   return (
-    <div>
-      <div>
-        <Header />    
-          { language === 'english' && (
-            <main>
-              <div className="upper-container">
-                <h2>Hey! my name is Vincenzo, I am a 28 years old developer from Brazil.</h2>
-                <p>
-                  For the past year I have developed a fascination for technology and programming languages, so I decided to start studing Information Systems at <a href="https://www.unisanta.br/" target="blank">University Santa Cecilia</a> in Santos/Brazil.
-                </p>
-                <p>
-                  I dropped university in <time><b>2021</b></time> because I expected that would be more classes about programming skills. Two mounths after dropping unisersity I started studing Web Development at <a href="https://www.betrybe.com/" target="blank">Trybe</a>.
-                </p>
+    <>
+      <Header />
+        { language === 'english' && (
+          <Description>
+            <div className="upper-container">
+              <h2>Hey! my name is Vincenzo, I am a 28 years old developer from Brazil.</h2>
+              <p>
+                For the past year I have developed a fascination for technology and programming languages, so I decided to start studing Information Systems at <a href="https://www.unisanta.br/" target="blank">University Santa Cecilia</a> in Santos/Brazil.
+              </p>
+              <p>
+                I dropped university in <time><b>2021</b></time> because I expected that would be more classes about programming skills. Two mounths after dropping unisersity I started studing Web Development at <a href="https://www.betrybe.com/" target="blank">Trybe</a>.
+              </p>
+            </div>
+
+            <div className="lower-container">
+                <img src={ profile } alt="Profile" />
+              <div className="skill-container">
+                <ul>
+                  <p><strong>Soft Skills</strong></p>
+                  <li>Communication</li>
+                  <li>Team Work</li>
+                  <li>Proactivity</li>
+                  <li>Empathy</li>
+                  <li>Work Ethics</li>
+                </ul>
+                <ul>
+                  <p><strong>Hard Skills</strong></p>
+                  <li>GNU/Linux</li>
+                  <li>NodeJs</li>
+                  <li>HTML and CSS</li>
+                  <li>JavaScript</li>
+                  <li>C sharp</li>
+                  <li>Python</li>
+                </ul>
               </div>
-
-
-
-              <div className="lower-container">
-                  <img src={ profile } alt="Profile" srcset="" />
-                <div className="skill-container">
-                  <ul>
-                    <p><strong>Soft Skills</strong></p>
-                    <li>Communication</li>
-                    <li>Team Work</li>
-                    <li>Proactivity</li>
-                    <li>Empathy</li>
-                    <li>Work Ethics</li>
-                  </ul>
-                  <ul>
-                    <p><strong>Hard Skills</strong></p>
-                    <li>GNU/Linux</li>
-                    <li>NodeJs</li>
-                    <li>HTML and CSS</li>
-                    <li>JavaScript</li>
-                    <li>C sharp</li>
-                    <li>Python</li>
-                  </ul>
-                </div>
-              </div>
-
-
-
-
-            </main>
-          ) }
+            </div>
+          </Description>
+        )}
         { language === 'portuguese' && (
-          <main>
+          <Description>
             <div className="upper-container">
               <h2>Hey! meu nome é Vincenzo, Eu sou um desenvolvedor Brasileiro de 26 anos.</h2>
               <p>
@@ -69,7 +63,7 @@ function About() {
 
 
             <div className="lower-container">
-                <img src={ profile } alt="Profile" srcset="" />
+                <img src={ profile } alt="Profile" />
               <div className="skill-container">
                 <ul>
                   <p><strong>Soft Skills</strong></p>
@@ -90,11 +84,11 @@ function About() {
                 </ul>
               </div>
             </div>
-          </main>
+          </Description>
         ) }
-        <Footer />
-      </div>
-    </div>
+      <Footer />
+    </>
+
   )
 }
 

@@ -2,7 +2,6 @@ import React, { useContext } from 'react'
 import { Link } from 'react-router-dom';
 import MyContext from '../context/MyContext';
 
-// import '../css/header.css';
 import { Navegation } from '../styles'
 import logo from '../img/logo.png'
 
@@ -28,6 +27,11 @@ function Header() {
         { language === 'english' && text('About', 'Projects','Contact') }
         { language === 'portuguese' && text('Sobre', 'Projetos', 'COntato') }
       </nav>
+      <div className="menu-toggle">
+          <div className="one"></div>
+          <div className="two"></div>
+          <div className="three"></div>
+      </div>
     </Navegation>
   )
 }
