@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 import Loading from '../components/Loading'
 
 import { Body } from '../styles'
-// import hero from '../img/hero.svg'
+import hero from '../img/hero.svg'
 import avatar from '../img/avatar.svg'
 
 function Home() {
@@ -28,9 +28,9 @@ function Home() {
               <img src={ avatar } alt="Avatar" />
             </div>
           </div>
-          {/* <div id="wallpaper">
+          <div id="wallpaper">
             <img src={ hero } alt="hero" />
-          </div> */}
+          </div>
         </Body>
         <Footer />
       </>
