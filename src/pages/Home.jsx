@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 import Loading from '../components/Loading'
 
 import { Body } from '../styles'
-import hero from '../img/hero.svg'
+// import hero from '../img/hero.svg'
 import avatar from '../img/avatar.svg'
 
 function Home() {
