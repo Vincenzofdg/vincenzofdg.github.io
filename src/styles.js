@@ -1,9 +1,8 @@
 import styled from "styled-components";
 
 export const Body = styled.div`
-  /* height: 93vh; */
+
   height: 93vh;
-  background-color: red;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -18,12 +17,8 @@ export const Body = styled.div`
   }
 
   .lower-container {
-    background-color: green;
       width: 100%;
-      img { 
-        width: 700px;
-        height: 100%; 
-      }
+      img { width: 700px; }
     }
 
   @media (max-width: 700px) {
@@ -108,7 +103,6 @@ export const Navegation = styled.div`
       }
     }
   }
-
 
   // Responsividade
   @media (max-width: 2050px) {
