@@ -5,10 +5,12 @@ import MyContext from './MyContext';
 function MyProvider({ children }) {
   const [ language, setLanguage ] = useState('english');
   const [ loading, setLoading ] = useState(true);
+  const [ toggle, setToggle ] = useState(false);
 
   const contextConteiner = {
     language, setLanguage,
-    loading, setLoading }
+    loading, setLoading,
+    toggle, setToggle}
   
   return(
     <MyContext.Provider value={ contextConteiner }>

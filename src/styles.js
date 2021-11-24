@@ -59,8 +59,34 @@ export const Navegation = styled.div`
   width: 100%;
   height: 7vh;
 
-  .menu-toggle {
-    display: none;
+  .menu-section {
+    margin-right: 10%;
+    
+    .menu-toggle {
+      display: none;
+    }
+
+    nav {
+      ul {
+        display: flex;
+        li {
+          list-style: none;
+    
+          a {
+            text-decoration: none;
+            color: white;
+            text-transform: uppercase;
+            font-size: 1.8rem; 
+            padding: 2.4rem;
+            transition: all 250ms linear 0s;
+    
+            :hover {
+              background: rgba(28, 28, 28, 0.45);
+            }
+          }
+        }
+      }
+    }
   }
 
   span {
@@ -80,29 +106,7 @@ export const Navegation = styled.div`
     }
   }
 
-  nav {
-    margin-right: 10%;
 
-    ul {
-      display: flex;
-      li {
-        list-style: none;
-  
-        a {
-          text-decoration: none;
-          color: white;
-          text-transform: uppercase;
-          font-size: 1.8rem; 
-          padding: 2.4rem;
-          transition: all 250ms linear 0s;
-  
-          :hover {
-            background: rgba(28, 28, 28, 0.45);
-          }
-        }
-      }
-    }
-  }
 
   // Responsividade
   @media (max-width: 2050px) {
@@ -114,29 +118,52 @@ export const Navegation = styled.div`
     span { margin-left: 2%; }
     nav { display: none; }
     
-    .menu-toggle {
-      display: block;
-      margin-right: 3%;
-      width: 40px;
-      height: 30px;
+    .menu-section {
+      .menu-toggle {
+        display: block;
+        width: 40px;
+        height: 30px;
+        margin-right: 20px;
+  
+        .one, .two, .three {
+          background-color: #fff;
+          height: 5px;
+          width: 100%;
+          margin: 6px auto;
 
-      .one {
-        background-color: #fff;
-        height: 5px;
-        width: 100%;
-        margin: 6px auto;
+          transition-duration: 0.3s;
+        }
       }
-      .two {
-        background-color: #fff;
-        height: 5px;
-        width: 100%;
-        margin: 6px auto;
+    }
+
+    .on {
+      background-color: #7510f7;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      z-index: 10;
+
+      nav { 
+        /* background-color: red; */
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
       }
-      .three {
-        background-color: #fff;
-        height: 5px;
-        width: 100%;
-        margin: 6px auto;
+
+      .menu-toggle {
+        position: absolute;
+        margin-right: 60px;
+        margin-top: 20px;
+        right: 0;
+        top: 15;
+
+        .one { transform: rotate(45deg) translate(7px, 6px) }
+        .two { opacity: 0 }
+        .three { transform: rotate(-45deg) translate(9.5px, -10px) }
       }
     }
   }
