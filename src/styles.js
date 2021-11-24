@@ -15,6 +15,45 @@ export const Body = styled.div`
     text-align: center;
     justify-content: space-evenly;
   }
+
+  #wallpaper {
+      width: 100%;
+      
+      img { width: 700px; }
+    }
+
+  @media (max-width: 700px) {
+
+    #wallpaper {
+      img { width: 600px; }
+    }
+  }
+  @media (max-width: 550px) {
+    .upper-container {
+      font-size: 1.3rem;
+    }
+
+    #avatar {
+      img { width: 220px; }
+    }
+
+    #wallpaper {
+      img { width: 500px; }
+    }
+  }
+  @media (max-width: 500px) {
+    .upper-container {
+      font-size: 1.1rem;
+    }
+
+    #avatar {
+      img { width: 180px; }
+    }
+
+    #wallpaper {
+      img { width: 400px; }
+    }
+  }
 `;
 
 export const Navegation = styled.div`

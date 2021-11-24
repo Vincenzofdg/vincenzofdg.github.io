@@ -24,11 +24,11 @@ function Home() {
           { language === 'english' && <h2>I just love everything that I code, even the bugs.</h2> }
           { language === 'portuguese' && <h1>Designer, Desenvolvedor Front e Back-end</h1> }
           { language === 'portuguese' && <h2>Eu simplesmente amo tudo o que eu programo, até mesmos os bugs.</h2> }
-            <div>
+            <div id="avatar">
               <img src={ avatar } alt="Avatar" />
             </div>
           </div>
-          <div>
+          <div id="wallpaper">
             <img src={ hero } alt="hero" />
           </div>
         </Body>
