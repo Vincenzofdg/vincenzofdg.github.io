@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Body = styled.div`
 
-  height: 95vh;
+  height: 93vh;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -57,8 +57,8 @@ export const Navegation = styled.div`
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  height: 5vh;
-  /* height: 50px; */
+  /* height: 5vh; */
+  height: 50px;
 
   .menu-toggle {
     display: none;
@@ -73,7 +73,7 @@ export const Navegation = styled.div`
     img {
       width: 80px;
       height: 100%;
-      padding: 5px;
+      padding: 6px;
 
       :hover {
         transform: scale(1.05);
