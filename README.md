@@ -4,11 +4,12 @@ npm install react-router-dom --save
 ```
 ```
 npm install styled-components
-``
+```
 
 **File Created:**
 
 `github/workflows/build.yml`
+
 ```
 name: deploy
 
