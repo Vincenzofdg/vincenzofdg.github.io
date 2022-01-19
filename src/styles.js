@@ -249,14 +249,14 @@ export const Language = styled.footer`
     width: 14%;
   }
   @media (max-width: 655px) {
-    margin-bottom: 23vh;
-    width: 16%;
-  }
-  @media (max-width: 600px) {
+    margin-bottom: 20vh;
     width: 17%;
   }
+  @media (max-width: 600px) {
+    width: 18%;
+  }
   @media (max-width: 500px) {
-    width: 20%;
+    width: 21%;
   }
   @media (max-width: 410px) {
     width: 22%;
