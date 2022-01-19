@@ -8,12 +8,10 @@ function Footer() {
 
   return (
     <Language>
-      <h4>{ language === 'english' ? 'Language:' : 'Idioma:' }</h4>
-
-      <div>
-        <h4 onClick={ () => setLanguage('english') }>{ language === 'english' ? 'English' : 'Inglês' }</h4>
-        <h4 onClick={ () => setLanguage('portuguese') }>{ language === 'english' ? 'Portuguese' : 'Português' }</h4>
-      </div>
+      <h4>{ language ? 'To:' : 'Para:' }</h4>
+      <h4 onClick={ () => setLanguage(!language) }>
+        {language ? 'Port' : 'Eng'}
+      </h4>
     </Language>
   )
 }

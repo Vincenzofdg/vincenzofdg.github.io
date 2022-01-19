@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Header from '../components/Header';
-import Footer from '../components/Footer';
 
 function Contact() {
 
@@ -9,7 +8,6 @@ function Contact() {
     <div>
       <Header />
       <h1>CONTACT</h1>
-      <Footer />
       {/* <div className="container-picture">
             <img id="profile" src={ profile } alt="Profile" />
             <div className="icons-set">

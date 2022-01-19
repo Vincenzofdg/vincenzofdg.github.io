@@ -1,7 +1,6 @@
 import React, { useContext } from 'react'
 import MyContext from '../context/MyContext';
 import Header from '../components/Header';
-import Footer from '../components/Footer';
 
 import { Description } from '../styles'
 import profile from '../img/profile.jpeg'
@@ -82,7 +81,6 @@ function About() {
             </div>
           </Description>
         )}
-      <Footer />
     </>
   )
 }

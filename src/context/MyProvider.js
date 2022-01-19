@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import MyContext from './MyContext';
 
 function MyProvider({ children }) {
-  const [ language, setLanguage ] = useState('english');
+  const [ language, setLanguage ] = useState(true); // true = english || false = portgueses
   const [ loading, setLoading ] = useState(true);
   const [ toggle, setToggle ] = useState(false);
 

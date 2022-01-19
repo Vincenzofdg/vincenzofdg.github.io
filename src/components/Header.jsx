@@ -32,8 +32,8 @@ function Header() {
         </div>
 
         <nav>
-          { language === 'english' && text('About', 'Projects','Contact') }
-          { language === 'portuguese' && text('Sobre', 'Projetos', 'COntato') }
+          { language && text('About', 'Projects','Contact') }
+          { !language && text('Sobre', 'Projetos', 'COntato') }
         </nav>
 
       </div>
