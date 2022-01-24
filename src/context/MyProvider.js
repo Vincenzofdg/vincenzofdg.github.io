@@ -10,7 +10,8 @@ function MyProvider({ children }) {
   const contextConteiner = {
     language, setLanguage,
     loading, setLoading,
-    toggle, setToggle}
+    toggle, setToggle,
+  };
   
   return(
     <MyContext.Provider value={ contextConteiner }>

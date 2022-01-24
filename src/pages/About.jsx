@@ -11,7 +11,7 @@ function About() {
   return (
     <>
       <Header />
-        { language === 'english' && (
+        { language && (
           <Description>
             <div className="upper-container">
               <h2>Hey! my name is Vincenzo, I am a 28 years old developer from Brazil.</h2>
@@ -46,7 +46,7 @@ function About() {
             </div>
           </Description>
         )}
-        { language === 'portuguese' && (
+        { !language && (
           <Description>
             <div className="upper-container">
               <h2>Hey! meu nome é Vincenzo, Eu sou um desenvolvedor Brasileiro de 26 anos.</h2>

@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { Load } from '../styles'
 
 function Loading() {

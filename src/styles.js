@@ -334,3 +334,33 @@ export const Description = styled.main`
     }
   }
 `;
+
+export const Project = styled.div`
+
+  background: yellow;
+  width: 15%;
+  height: 300px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  border: solid 2px black;
+
+  div {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    p { text-align: center; }
+  }
+
+  img { 
+    width: 100%;
+    height: 50%;
+  }
+`
