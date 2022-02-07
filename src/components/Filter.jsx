@@ -9,30 +9,41 @@ function Filter() {
 
     return (
     <SelectFiler>
-        <label htmlFor="field">
-        { language ? "Project Type:" : "Tipo de Projeto:" }
-        <select id="field" onChange={ ({ target: { value } }) => setType(value) }>
-            { option("", "All", "Todos") }
-            { option("Front-end", "Front-end", "Front-end") }
-            { option("Back-end", "Back-end", "Back-end") }
-        </select>
-        </label>
-        <label htmlFor="framework">
-        Framework:
-        <select id="framework" onChange={ ({ target: { value } }) => setFramework(value) }>
-            { option("", "All", "Todos") }
-            { option("None", "None", "Nenhum") }
-            { option("React", "React", "React") }
-        </select>
-        </label>
-        <label htmlFor="origin">
-        { language ? "Institution:" : "Instituição:" }
-        <select id="field" onChange={ ({ target: { value } }) => setInstitution(value) }>
-            { option("", "All", "Todos") }
-            { option("Me", "Own Projects", "Projetos Próprios") }
-            { option("Trybe", "Trybe", "Trybe") }
-        </select>
-        </label>
+      <div>
+        <div>
+          <h4>{ language ? "Project Type:" : "Tipo de Projeto:" }</h4>
+          <div className="select">
+            <select onChange={ ({ target: { value } }) => setType(value) }>
+              { option("", "All", "Todos") }
+              { option("Front-end", "Front-end", "Front-end") }
+              { option("Back-end", "Back-end", "Back-end") }
+            </select>
+          </div>
+        </div>
+
+        <div>
+          <h4>Framework:</h4>
+          <div className="select">
+            <select onChange={ ({ target: { value } }) => setFramework(value) }>
+              { option("", "All", "Todos") }
+              { option("None", "None", "Nenhum") }
+              { option("React", "React", "React") }
+            </select>
+          </div>
+        </div>
+
+
+        <div>
+          <h4>{ language ? "Institution:" : "Instituição:" }</h4>
+          <div className="select">
+            <select onChange={ ({ target: { value } }) => setInstitution(value) }>
+              { option("", "All", "Todos") }
+              { option("Me", "Own Projects", "Projetos Próprios") }
+              { option("Trybe", "Trybe", "Trybe") }
+            </select>
+          </div>
+        </div>
+      </div>
     </SelectFiler>
     )
 }
