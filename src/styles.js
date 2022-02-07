@@ -339,6 +339,7 @@ export const ProjectList = styled.div`
 
   main {
     display: flex;
+    justify-content: space-between;
     flex-flow: row wrap;
     padding: 48px 30px;
   }

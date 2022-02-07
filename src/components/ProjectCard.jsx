@@ -8,12 +8,12 @@ import download from '../img/download.png'
 
 
 function ProjectCard({ theProject }) {
-  const { name, gif, internet, repositorie, downloadLink } = theProject;
+  const { name, internet, repositorie, downloadLink } = theProject;
 
   return ( 
     <Project>
       <h3>{ name }</h3>
-      <img src={ gif } alt={ name } />
+      <img src={ process.env.PUBLIC_URL + `/gif/${name}.gif` } alt={ name } />
       <div>
         <a href={ internet } target="_blank" rel="noreferrer">
           <img src={ web } alt="Link to Site" />
