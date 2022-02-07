@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.74368841.chunk.css",
-    "main.js": "/static/js/main.a99ea292.chunk.js",
-    "main.js.map": "/static/js/main.a99ea292.chunk.js.map",
+    "main.js": "/static/js/main.1e165cdf.chunk.js",
+    "main.js.map": "/static/js/main.1e165cdf.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.26096b02.js",
     "runtime-main.js.map": "/static/js/runtime-main.26096b02.js.map",
     "static/js/2.1145b4e5.chunk.js": "/static/js/2.1145b4e5.chunk.js",
@@ -10,13 +10,6 @@
     "index.html": "/index.html",
     "static/css/main.74368841.chunk.css.map": "/static/css/main.74368841.chunk.css.map",
     "static/js/2.1145b4e5.chunk.js.LICENSE.txt": "/static/js/2.1145b4e5.chunk.js.LICENSE.txt",
-    "static/media/Hogwarts Application.93fe38b0.gif": "/static/media/Hogwarts Application.93fe38b0.gif",
-    "static/media/Mistery Letter.09952a82.gif": "/static/media/Mistery Letter.09952a82.gif",
-    "static/media/Naruto Movies.4ad04846.gif": "/static/media/Naruto Movies.4ad04846.gif",
-    "static/media/Pixels Art.3cdd5ca8.gif": "/static/media/Pixels Art.3cdd5ca8.gif",
-    "static/media/Shopping Cart.8c16d14e.gif": "/static/media/Shopping Cart.8c16d14e.gif",
-    "static/media/Shopping Shirt.c6368366.gif": "/static/media/Shopping Shirt.c6368366.gif",
-    "static/media/To Do List.97f30bf9.gif": "/static/media/To Do List.97f30bf9.gif",
     "static/media/avatar.b6b5d830.svg": "/static/media/avatar.b6b5d830.svg",
     "static/media/code.8cbecd71.png": "/static/media/code.8cbecd71.png",
     "static/media/download.de87af09.png": "/static/media/download.de87af09.png",
@@ -29,6 +22,6 @@
     "static/js/runtime-main.26096b02.js",
     "static/js/2.1145b4e5.chunk.js",
     "static/css/main.74368841.chunk.css",
-    "static/js/main.a99ea292.chunk.js"
+    "static/js/main.1e165cdf.chunk.js"
   ]
 }
