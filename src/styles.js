@@ -339,7 +339,7 @@ export const ProjectList = styled.div`
 
   main {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-flow: row wrap;
     padding: 48px 30px;
   }
@@ -387,5 +387,11 @@ export const Project = styled.div`
       height: 35px;
     }
   }
+
+`
+
+export const SelectFiler = styled.div`
+
+
 
 `
