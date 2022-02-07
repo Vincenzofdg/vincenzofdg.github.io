@@ -1,44 +1,30 @@
-import React, { useContext } from 'react'
-import MyContext from '../context/MyContext';
+import React from 'react'
 import { Project } from '../styles'
 
 // Images
-import GitHub from '../img/code.png'
+import web from '../img/web.png'
+import code from '../img/code.png'
+import download from '../img/download.png'
+
 
 function ProjectCard({ theProject }) {
-  const { language } = useContext(MyContext);
-  const {
-    name,
-    aboutPort,
-    aboutEng,
-    download,
-    link,
-    gif
-  } = theProject;
-  
-  const about = language ? aboutEng : aboutPort;
-  
+  const { name, gif, internet, repositorie, downloadLink } = theProject;
+
   return ( 
     <Project>
-      <div>
-        <h3>{ name }</h3>
-        <p>{ about }</p>
-      </div>
+      <h3>{ name }</h3>
       <img src={ gif } alt={ name } />
-
-      
-      <div className="buttons">
-        <a href={ download } target="_blank" rel="noreferrer">
-          <button>{language ? 'Download Code' : 'Baixar Codigo'}</button>
+      <div>
+        <a href={ internet } target="_blank" rel="noreferrer">
+          <img src={ web } alt="Link to Site" />
         </a>
-
-        <img id="github-code" src={ GitHub } href={ link } alt="Github Code" />
-        {/* <div id="github-code" href={ link } target="_blank" /> */}
-        {/* <a href={ link } target="_blank" rel="noreferrer"></a> */}
-          {/* <button id="github-code">{`${language ? 'Go to' : 'Ir para'} Github`}</button> */}
+        <a href={ repositorie } target="_blank" rel="noreferrer">
+          <img src={ code } alt="Link to GitHub" />
+        </a>
+        <a href={ downloadLink } download={ name }>
+          <img src={ download } alt="Link to Site" />
+        </a>
       </div>
-
-
     </Project>
   )
 }

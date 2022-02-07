@@ -335,66 +335,56 @@ export const Description = styled.main`
   }
 `;
 
+export const ProjectList = styled.div`
+
+  main {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 48px 30px;
+  }
+`
+
 export const Project = styled.div`
 
-  background: white;
-  width: 15%;
-  height: 300px;
-
+  background-color: white;
+  border: 4px solid rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content: space-between;
+  height: 280px;
+  margin: 10px;
+  overflow: hidden;
+  width: 250px;
 
-  border: solid 2px black;
+  h3 {
+    height: 15%;
+    padding: 5px;
 
-  div {
-    width: 100%;
-    height: 25%;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
-    justify-content: space-between;
-
-    p { text-align: center; }
   }
 
-  .buttons {
+  img {
+    width: 100%;
+    height: 65%;
+  }
+
+  div {
+
     width: 100%;
     height: 15%;
+
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
 
-    #github-code {
-      background-image: url(imagem/imagemcss.jpg);
-      background: red;
-    }
-
-    a {
-      width: 45%;
-      height: 100%;
-
-      display: flex;
-      justify-content: space-evenly;
-
-      button {
-        background: green;
-        color: white;
-        width: 100%;
-        height: 100%;
-
-
-        :hover { background: white; }
-      }
+    img {
+      width: 35px;
+      height: 35px;
     }
   }
 
-
-
-  img { 
-    width: 100%;
-    height: 50%;
-  }
 `
