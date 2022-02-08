@@ -29,6 +29,8 @@ function Filter() {
               { option("", "All", "Todos") }
               { option("None", "None", "Nenhum") }
               { option("React", "React", "React") }
+              { option("Docker", "Docker", "Docker") }
+              { option("MySQL", "MySQL", "MySQL") }
             </select>
           </div>
         </div>

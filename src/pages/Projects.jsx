@@ -23,7 +23,6 @@ function Projects() {
           .filter(({ framework: f }) => filter02 !== "" ? f === filter02 : f)
           .filter(({ origin: o }) => filter03 !== "" ? o === filter03 : o)
           .map((myProject) => <ProjectCard key={ myProject.id } theProject={ myProject }/>)
-          
         }
       </main>
     </ProjectList>
