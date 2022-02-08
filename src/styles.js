@@ -359,7 +359,7 @@ export const Project = styled.div`
   width: 250px;
 
   h3 {
-    height: 15%;
+    height: 12%;
     padding: 5px;
 
     display: flex;
@@ -376,7 +376,7 @@ export const Project = styled.div`
   div {
 
     width: 100%;
-    height: 15%;
+    height: 18%;
 
     display: flex;
     justify-content: space-evenly;

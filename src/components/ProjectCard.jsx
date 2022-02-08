@@ -6,22 +6,25 @@ import web from '../img/web.png'
 import code from '../img/code.png'
 import download from '../img/download.png'
 
-
 function ProjectCard({ theProject }) {
-  const { name, internet, repositorie, downloadLink } = theProject;
-
+  const { name, internet, repositorie, downloadLink, type: ty } = theProject;
+  const te = "Test";
   return ( 
     <Project>
       <h3>{ name }</h3>
-      <img src={ process.env.PUBLIC_URL + `/gif/${name}.gif` } alt={ name } />
+      { ty === te ? (
+        <img src={ process.env.PUBLIC_URL + `/images/${name}.jpg` } alt={ name } />
+        ) : (
+        <img src={ process.env.PUBLIC_URL + `/gif/${name}.gif` } alt={ name } />
+      ) }
       <div>
-        <a href={ internet } target="_blank" rel="noreferrer">
+        <a hidden={ ty === te } href={ internet } target="_blank" rel="noreferrer">
           <img src={ web } alt="Link to Site" />
         </a>
         <a href={ repositorie } target="_blank" rel="noreferrer">
           <img src={ code } alt="Link to GitHub" />
         </a>
-        <a href={ downloadLink } download={ name }>
+        <a hidden={ ty === te } href={ downloadLink } download={ name }>
           <img src={ download } alt="Link to Site" />
         </a>
       </div>

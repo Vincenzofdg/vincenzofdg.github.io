@@ -18,11 +18,12 @@ function Projects() {
       <Header />
       <Filter />
       <main>
-        { data
+        { data.sort(({name: a}, {name: b}) =>  a < b ? (-1) : (a > b ? 1 : 0)) // Ordem Alfabetica
           .filter(({ type: t }) => filter01 !== "" ? t === filter01 : t)
           .filter(({ framework: f }) => filter02 !== "" ? f === filter02 : f)
           .filter(({ origin: o }) => filter03 !== "" ? o === filter03 : o)
           .map((myProject) => <ProjectCard key={ myProject.id } theProject={ myProject }/>)
+          
         }
       </main>
     </ProjectList>

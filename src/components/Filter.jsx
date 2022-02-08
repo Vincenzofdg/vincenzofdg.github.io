@@ -17,6 +17,7 @@ function Filter() {
               { option("", "All", "Todos") }
               { option("Front-end", "Front-end", "Front-end") }
               { option("Back-end", "Back-end", "Back-end") }
+              { option("Test", "Test", "Teste") }
             </select>
           </div>
         </div>
