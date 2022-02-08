@@ -7,7 +7,8 @@ const data = [
     downloadLink: 'https://github.com/Vincenzofdg/Pixels-Art/archive/refs/heads/master.zip',
     type: 'Front-end',
     framework: 'None',
-    origin: 'Trybe'
+    origin: 'Trybe',
+    gif: true
   },
   {
     id: 2,
@@ -17,7 +18,8 @@ const data = [
     downloadLink: 'https://github.com/Vincenzofdg/To-Do-List/archive/refs/heads/master.zip',
     type: 'Front-end',
     framework: 'None',
-    origin: 'Trybe'
+    origin: 'Trybe',
+    gif: true
   },
   {
     id: 3,
@@ -27,7 +29,8 @@ const data = [
     downloadLink: 'https://github.com/Vincenzofdg/Mistery-Letter/archive/refs/heads/master.zip',
     type: 'Front-end',
     framework: 'None',
-    origin: 'Trybe'
+    origin: 'Trybe',
+    gif: true
   },
   {
     id: 4,
@@ -37,7 +40,8 @@ const data = [
     downloadLink: 'https://github.com/Vincenzofdg/Hogwarts-Application/archive/refs/heads/master.zip',
     type: 'Front-end',
     framework: 'None',
-    origin: 'Trybe'
+    origin: 'Trybe',
+    gif: true
   },
   {
     id: 5,
@@ -47,7 +51,8 @@ const data = [
     downloadLink: 'https://github.com/Vincenzofdg/Shopping-Cart/archive/refs/heads/master.zip',
     type: 'Front-end',
     framework: 'None',
-    origin: 'Trybe'
+    origin: 'Trybe',
+    gif: true
   },
   {
     id: 6,
@@ -57,7 +62,8 @@ const data = [
     downloadLink: 'https://github.com/Vincenzofdg/Shopping-Shirt/archive/refs/heads/master.zip',
     type: 'Front-end',
     framework: 'None',
-    origin: 'Trybe'
+    origin: 'Trybe',
+    gif: true
   },
   {
     id: 7,
@@ -67,7 +73,8 @@ const data = [
     downloadLink: 'https://github.com/Vincenzofdg/Naruto-Movies/archive/refs/heads/master.zip',
     type: 'Front-end',
     framework: 'React',
-    origin: 'Me'
+    origin: 'Me',
+    gif: true
   },
   {
     id: 8,
@@ -77,7 +84,8 @@ const data = [
     downloadLink: 'https://github.com/Vincenzofdg/Movie-Library/archive/refs/heads/master.zip',
     type: 'Front-end',
     framework: 'React',
-    origin: 'Trybe'
+    origin: 'Trybe',
+    gif: true
   },
   {
     id: 9,
@@ -87,7 +95,8 @@ const data = [
     downloadLink: '',
     type: 'Test',
     framework: 'None',
-    origin: 'Trybe'
+    origin: 'Trybe',
+    gif: false
   },
   {
     id: 10,
@@ -97,7 +106,8 @@ const data = [
     downloadLink: '',
     type: 'Test',
     framework: 'None',
-    origin: 'Trybe'
+    origin: 'Trybe',
+    gif: false
   },
   {
     id: 11,
@@ -107,7 +117,8 @@ const data = [
     downloadLink: '',
     type: 'Test',
     framework: 'React',
-    origin: 'Trybe'
+    origin: 'Trybe',
+    gif: false
   },
   {
     id: 12,
@@ -117,7 +128,8 @@ const data = [
     downloadLink: '',
     type: 'Back-end',
     framework: 'Docker',
-    origin: 'Trybe'
+    origin: 'Trybe',
+    gif: false
   },
   {
     id: 13,
@@ -127,7 +139,8 @@ const data = [
     downloadLink: '',
     type: 'Back-end',
     framework: 'MySQL',
-    origin: 'Trybe'
+    origin: 'Trybe',
+    gif: false
   },
   {
     id: 14,
@@ -137,7 +150,8 @@ const data = [
     downloadLink: '',
     type: 'Back-end',
     framework: 'MySQL',
-    origin: 'Trybe'
+    origin: 'Trybe',
+    gif: false
   },
 ]
 
