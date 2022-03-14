@@ -91,7 +91,7 @@ const data = [
     id: 9,
     name: 'Testes Unitários',
     internet: '',
-    repositorie: 'https://github.com/Vincenzofdg/Trybe/tree/01.Fundamentos/Bloco%2007%20-%20Introdu%C3%A7%C3%A3o%20%C3%A0%20JavaScript%20ES6%20e%20Testes%20Unit%C3%A1rios/04%20-%20Projeto:%20Js%20Unit%20Tests%20(27.07.21)',
+    repositorie: 'https://github.com/Vincenzofdg/Trybe/tree/master/M.01_07%20-%20Introdu%C3%A7%C3%A3o%20%C3%A0%20JavaScript%20ES6%20e%20Testes%20Unit%C3%A1rios/04%20-%20Projeto:%20Js%20Unit%20Tests%20(27.07.21)',
     downloadLink: '',
     type: 'Test',
     framework: 'None',
@@ -102,7 +102,7 @@ const data = [
     id: 10,
     name: 'Jest (Mocking)',
     internet: '',
-    repositorie: 'https://github.com/Vincenzofdg/Trybe/tree/01.Fundamentos/Bloco%2010%20-%20Testes%20Automatizados%20com%20Jest/04%20-%20Projeto:%20Jest%20Ass%C3%ADncrono%20e%20Mocking%20(20.08.21)',
+    repositorie: 'https://github.com/Vincenzofdg/Trybe/tree/master/M.01_10%20-%20Testes%20Automatizados%20com%20Jest/04%20-%20Projeto:%20Jest%20Ass%C3%ADncrono%20e%20Mocking%20(20.08.21)',
     downloadLink: '',
     type: 'Test',
     framework: 'None',
@@ -113,7 +113,7 @@ const data = [
     id: 11,
     name: 'React Testing Library',
     internet: '',
-    repositorie: 'https://github.com/Vincenzofdg/Trybe/tree/02.Front-End/Bloco%2005%20-%20Testes%20Automatizados%20com%20React%20Testing%20Library/04%20-%20Projeto:%20Testes%20em%20React%20(29.0921)',
+    repositorie: 'https://github.com/Vincenzofdg/Trybe/tree/master/M.02_05%20-%20Testes%20Automatizados%20com%20React%20Testing%20Library/04%20-%20Projeto:%20Testes%20em%20React%20(29.09.21)',
     downloadLink: '',
     type: 'Test',
     framework: 'React',
@@ -124,7 +124,7 @@ const data = [
     id: 12,
     name: 'To Do List (Docker)',
     internet: '',
-    repositorie: 'https://github.com/Vincenzofdg/Trybe/tree/03.Back-End/Bloco%2001%20-%20Docker:%20Utilizando%20Containers/04%20-%20Projeto:%20Docker%20To%20Do%20List%20(01.12.21)',
+    repositorie: 'https://github.com/Vincenzofdg/Trybe/tree/master/M.03_01%20-%20Docker:%20Utilizando%20Containers/04%20-%20Projeto:%20Docker%20To%20Do%20List%20(01.12.21)',
     downloadLink: '',
     type: 'Back-end',
     framework: 'Docker',
@@ -135,7 +135,7 @@ const data = [
     id: 13,
     name: 'All For One',
     internet: '',
-    repositorie: 'https://github.com/Vincenzofdg/Trybe/tree/03.Back-End/Bloco%2002%20-%20Introdu%C3%A7%C3%A3o%20%C3%A0%20SQL/05%20-%20Projeto:%20All%20For%20One%20(08.12.21)',
+    repositorie: 'https://github.com/Vincenzofdg/Trybe/tree/master/M.03_02%20-%20Introdu%C3%A7%C3%A3o%20%C3%A0%20SQL/05%20-%20Projeto:%20All%20For%20One%20(08.12.21)',
     downloadLink: '',
     type: 'Back-end',
     framework: 'MySQL',
@@ -146,13 +146,26 @@ const data = [
     id: 14,
     name: 'One For All',
     internet: '',
-    repositorie: 'https://github.com/Vincenzofdg/Trybe/tree/03.Back-End/Bloco%2002%20-%20Introdu%C3%A7%C3%A3o%20%C3%A0%20SQL/05%20-%20Projeto:%20All%20For%20One%20(08.12.21)',
+    repositorie: 'https://github.com/Vincenzofdg/Trybe/tree/master/M.03_03%20-%20Fun%C3%A7%C3%B5es%20SQL,%20JOINs%20e%20Normaliza%C3%A7%C3%A3o/04%20-%20Projeto:%20One%20for%20All%20(04.01.2022)',
     downloadLink: '',
     type: 'Back-end',
     framework: 'MySQL',
     origin: 'Trybe',
     gif: false
   },
+  {
+    id: 15,
+    name: 'Talker Manager',
+    internet: '',
+    repositorie: 'https://github.com/Vincenzofdg/Trybe/tree/master/M.03_04%20-%20Introdu%C3%A7%C3%A3o%20ao%20desenvolvimento%20Web%20com%20Node.js/05%20-%20Projeto:%20Talker%20Manager%20(15.02.22)',
+    downloadLink: '',
+    type: 'Back-end',
+    framework: 'MySQL',
+    origin: 'Trybe',
+    gif: false
+  },
+  
+  
 ]
 
 export default data;
