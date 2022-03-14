@@ -8,7 +8,7 @@ function MyProvider({ children }) {
   const [ toggle, setToggle ] = useState(false);
   // Filters:
   const [ framework, setFramework ] = useState("");
-  const [ institution, setInstitution ] = useState("");
+  const [ type, setType ] = useState("");
 
   const contextConteiner = {
     language, setLanguage,
