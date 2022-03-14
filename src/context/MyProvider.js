@@ -8,7 +8,6 @@ function MyProvider({ children }) {
   const [ toggle, setToggle ] = useState(false);
   // Filters:
   const [ framework, setFramework ] = useState("");
-  const [ type, setType ] = useState("");
   const [ institution, setInstitution ] = useState("");
 
   const contextConteiner = {
@@ -17,7 +16,6 @@ function MyProvider({ children }) {
     toggle, setToggle,
     type, setType,
     framework, setFramework,
-    institution, setInstitution
   };
   
   return(

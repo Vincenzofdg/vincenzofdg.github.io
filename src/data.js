@@ -7,7 +7,6 @@ const data = [
     downloadLink: 'https://github.com/Vincenzofdg/Pixels-Art/archive/refs/heads/master.zip',
     type: 'Front-end',
     framework: 'None',
-    origin: 'Trybe',
     gif: true
   },
   {
@@ -18,7 +17,6 @@ const data = [
     downloadLink: 'https://github.com/Vincenzofdg/To-Do-List/archive/refs/heads/master.zip',
     type: 'Front-end',
     framework: 'None',
-    origin: 'Trybe',
     gif: true
   },
   {
@@ -29,7 +27,6 @@ const data = [
     downloadLink: 'https://github.com/Vincenzofdg/Mistery-Letter/archive/refs/heads/master.zip',
     type: 'Front-end',
     framework: 'None',
-    origin: 'Trybe',
     gif: true
   },
   {
@@ -40,7 +37,6 @@ const data = [
     downloadLink: 'https://github.com/Vincenzofdg/Hogwarts-Application/archive/refs/heads/master.zip',
     type: 'Front-end',
     framework: 'None',
-    origin: 'Trybe',
     gif: true
   },
   {
@@ -51,7 +47,6 @@ const data = [
     downloadLink: 'https://github.com/Vincenzofdg/Shopping-Cart/archive/refs/heads/master.zip',
     type: 'Front-end',
     framework: 'None',
-    origin: 'Trybe',
     gif: true
   },
   {
@@ -62,7 +57,6 @@ const data = [
     downloadLink: 'https://github.com/Vincenzofdg/Shopping-Shirt/archive/refs/heads/master.zip',
     type: 'Front-end',
     framework: 'None',
-    origin: 'Trybe',
     gif: true
   },
   {
@@ -73,7 +67,6 @@ const data = [
     downloadLink: 'https://github.com/Vincenzofdg/Naruto-Movies/archive/refs/heads/master.zip',
     type: 'Front-end',
     framework: 'React',
-    origin: 'Me',
     gif: true
   },
   {
@@ -84,7 +77,6 @@ const data = [
     downloadLink: 'https://github.com/Vincenzofdg/Movie-Library/archive/refs/heads/master.zip',
     type: 'Front-end',
     framework: 'React',
-    origin: 'Trybe',
     gif: true
   },
   {
@@ -95,7 +87,6 @@ const data = [
     downloadLink: '',
     type: 'Test',
     framework: 'None',
-    origin: 'Trybe',
     gif: false
   },
   {
@@ -106,7 +97,6 @@ const data = [
     downloadLink: '',
     type: 'Test',
     framework: 'None',
-    origin: 'Trybe',
     gif: false
   },
   {
@@ -117,7 +107,6 @@ const data = [
     downloadLink: '',
     type: 'Test',
     framework: 'React',
-    origin: 'Trybe',
     gif: false
   },
   {
@@ -128,7 +117,6 @@ const data = [
     downloadLink: '',
     type: 'Back-end',
     framework: 'Docker',
-    origin: 'Trybe',
     gif: false
   },
   {
@@ -139,7 +127,6 @@ const data = [
     downloadLink: '',
     type: 'Back-end',
     framework: 'MySQL',
-    origin: 'Trybe',
     gif: false
   },
   {
@@ -150,7 +137,6 @@ const data = [
     downloadLink: '',
     type: 'Back-end',
     framework: 'MySQL',
-    origin: 'Trybe',
     gif: false
   },
   {
@@ -161,11 +147,8 @@ const data = [
     downloadLink: '',
     type: 'Back-end',
     framework: 'MySQL',
-    origin: 'Trybe',
     gif: false
   },
-  
-  
 ]
 
 export default data;

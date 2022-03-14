@@ -34,18 +34,6 @@ function Filter() {
             </select>
           </div>
         </div>
-
-
-        <div>
-          <h4>{ language ? "Institution:" : "Instituição:" }</h4>
-          <div className="select">
-            <select onChange={ ({ target: { value } }) => setInstitution(value) }>
-              { option("", "All", "Todos") }
-              { option("Me", "Own Projects", "Projetos Próprios") }
-              { option("Trybe", "Trybe", "Trybe") }
-            </select>
-          </div>
-        </div>
       </div>
     </SelectFiler>
     )
