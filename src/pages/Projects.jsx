@@ -3,7 +3,7 @@ import MyContext from '../context/MyContext';
 import Header from '../components/Header';
 import Filter from '../components/Filter';
 import ProjectCard from '../components/ProjectCard';
-import { ProjectList } from '../styles'
+import PageProject from '../css/PageProject'
 
 import data from '../data.js'
 
@@ -14,7 +14,7 @@ function Projects() {
     institution: filter03
   } = useContext(MyContext);
   return (
-    <ProjectList>
+    <PageProject>
       <Header />
       <Filter />
       <main>
@@ -25,7 +25,7 @@ function Projects() {
           .map((myProject) => <ProjectCard key={ myProject.id } theProject={ myProject }/>)
         }
       </main>
-    </ProjectList>
+    </PageProject>
   )
 }
 

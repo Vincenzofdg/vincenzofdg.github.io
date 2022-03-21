@@ -8,13 +8,13 @@
 html {
   /* a cada 1rem será considera 10px */
   font-size: 62.5%;
-  color: black;
+  color: white;
 }
 
 html, body {
-  height: 100vh;
-  background: -webkit-radial-gradient(rgb(234, 242, 250), rgb(216, 197, 239));
-  background: radial-gradient(rgb(234, 242, 250), rgb(216, 197, 239));
+  /* height: 100vh; */
+  height: 100%;
+  background: black;
   font-family: "europa", "sans-serif";
   text-rendering: optimizelegibility;
   -webkit-font-smoothing: antialiased;

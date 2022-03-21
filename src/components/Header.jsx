@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import { Link } from 'react-router-dom';
 import MyContext from '../context/MyContext';
 
-import { Navegation } from '../styles'
+import Navegation from '../css/Navegation';
 import logo from '../img/logo.png'
 
 function Header() {

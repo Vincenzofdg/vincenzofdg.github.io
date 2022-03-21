@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import MyContext from '../context/MyContext';
 import Header from '../components/Header';
 
-import { Description } from '../styles'
+import PageAbout from '../css/PageAbout'
 import profile from '../img/profile.jpeg'
 
 function About() {
@@ -12,7 +12,7 @@ function About() {
     <>
       <Header />
         { language && (
-          <Description>
+          <PageAbout>
             <div className="upper-container">
               <h2>Hey! my name is Vincenzo, I am a 28 years old developer from Brazil.</h2>
               <p>
@@ -44,10 +44,10 @@ function About() {
                 </ul>
               </div>
             </div>
-          </Description>
+          </PageAbout>
         )}
         { !language && (
-          <Description>
+          <PageAbout>
             <div className="upper-container">
               <h2>Hey! meu nome é Vincenzo, Eu sou um desenvolvedor Brasileiro de 26 anos.</h2>
               <p>
@@ -79,7 +79,7 @@ function About() {
                 </ul>
               </div>
             </div>
-          </Description>
+          </PageAbout>
         )}
     </>
   )

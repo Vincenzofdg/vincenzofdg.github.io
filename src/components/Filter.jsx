@@ -1,14 +1,15 @@
 import React, { useContext } from 'react'
 import MyContext from '../context/MyContext';
-import { SelectFiler } from '../styles'
+
+import ProjectFilter from '../css/ProjectFilter'
 
 function Filter() {
-    const { language, setType, setFramework, setInstitution } = useContext(MyContext);
+  const { language, setType, setFramework } = useContext(MyContext);
 
-    const option = (v, eng, port) => <option value={ v }>{ language ? eng : port }</option>;
+  const option = (v, eng, port) => <option value={ v }>{ language ? eng : port }</option>;
 
-    return (
-    <SelectFiler>
+  return (
+    <ProjectFilter>
       <div>
         <div>
           <h4>{ language ? "Project Type:" : "Tipo de Projeto:" }</h4>
@@ -35,8 +36,8 @@ function Filter() {
           </div>
         </div>
       </div>
-    </SelectFiler>
-    )
+    </ProjectFilter>
+  )
 }
 
 export default Filter;

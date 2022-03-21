@@ -4,8 +4,8 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Loading from '../components/Loading'
 
-import { Body } from '../styles'
-import hero from '../img/hero.svg'
+import PageHome from '../css/PageHome'
+// import hero from '../img/hero.svg'
 import avatar from '../img/avatar.svg'
 
 function Home() {
@@ -18,7 +18,7 @@ function Home() {
     { loading ? <Loading /> : (
       <>
         <Header />
-        <Body>
+        <PageHome>
           <div className="upper-container">
           { language && <h1>Designer, Front and Back-end Developer</h1> }
           { !language && <h1>Designer, Desenvolvedor Front e Back-end</h1> }
@@ -28,10 +28,10 @@ function Home() {
               <img src={ avatar } alt="Avatar" />
             </div>
           </div>
-          <div className="lower-container">
+          {/* <div className="lower-container">
             <img src={ hero } alt="hero" />
-          </div>
-        </Body>
+          </div> */}
+        </PageHome>
         <Footer />
       </>
     )}

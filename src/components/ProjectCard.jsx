@@ -1,16 +1,16 @@
-import React from 'react'
-import { Project } from '../styles'
+import React from 'react';
+import Card from '../css/Card';
 
 // Images
-import web from '../img/web.png'
-import code from '../img/code.png'
-import download from '../img/download.png'
+import web from '../img/web.png';
+import code from '../img/code.png';
+import download from '../img/download.png';
 
 function ProjectCard({ theProject }) {
   const { name, internet, repositorie, downloadLink, gif } = theProject;
 
   return ( 
-    <Project>
+    <Card>
       <h3>{ name }</h3>
       { !gif ? (
         <img src={ process.env.PUBLIC_URL + `/images/${name}.jpg` } alt={ name } />
@@ -28,7 +28,7 @@ function ProjectCard({ theProject }) {
           <img src={ download } alt="Link to Site" />
         </a>
       </div>
-    </Project>
+    </Card>
   )
 }
 
