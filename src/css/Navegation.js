@@ -6,7 +6,7 @@ const css = styled.div`
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  height: 5%;
+  height: 7%;
 
   .marker {
     margin-left: 100px;
