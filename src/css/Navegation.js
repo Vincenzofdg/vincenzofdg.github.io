@@ -1,14 +1,28 @@
 import styled from "styled-components";
 
-// Purple => Indigo
-
 const css = styled.div`
   background: #4B0082;
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  height: 7vh;
+  height: 5%;
+
+  .marker {
+    margin-left: 100px;
+    background: green;
+    width: 20%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+
+    .nome {
+      width: 100%;
+      :hover { transform: scale(1.05) }
+    }
+
+    .logo { display: none; }
+  }
 
   .menu-section {
     margin-right: 10%;
@@ -22,8 +36,11 @@ const css = styled.div`
         display: flex;
         li {
           list-style: none;
-    
           a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          
             text-decoration: none;
             color: white;
             text-transform: uppercase;
@@ -41,33 +58,23 @@ const css = styled.div`
     }
   }
 
-  span {
-    height: inherit;
-    margin-left: 10%;
-    display: flex;
-    justify-content: right;
-
-    img {
-      width: 80px;
-      height: 100%;
-      padding: 6px;
-
-      :hover {
-        transform: scale(1.05);
+  // Responsividade
+  @media (max-width: 1420px) { .marker { width: 25%; } }
+  @media (max-width: 900px) { .marker { width: 30%; } }
+  @media (max-width: 890px) { .marker { width: 35%; } }
+  @media (max-width: 745px) { 
+    .marker {
+      width: 10%;
+      .nome { display: none; }
+      .logo {
+        display: block;
+        width: 100%;
+        height: 100%;
       }
     }
   }
 
-
-
-  // Responsividade
-  @media (max-width: 2050px) {
-    span { margin-left: 3%; }
-    nav { margin-right: 2%; }
-  }
-
   @media (max-width: 600px) {
-    span { margin-left: 2%; }
     nav { display: none; }
     
     .menu-section {

@@ -24,35 +24,17 @@ const css = styled.footer`
   }
 
   // Responsividade
-  @media (max-width: 2050px) {
-    width: 8%;
-  }
-  @media (max-width: 1370px) {
-    width: 9%;
-  }
-  @media (max-width: 1070px) {
-    width: 11%;
-  }
-  @media (max-width: 910px) {
-    margin-bottom: 10vh;
-    width: 13%;
-  }
-  @media (max-width: 720px) {
-    width: 14%;
-  }
-  @media (max-width: 655px) {
-    margin-bottom: 20vh;
-    width: 17%;
-  }
-  @media (max-width: 600px) {
-    width: 18%;
-  }
-  @media (max-width: 500px) {
-    width: 21%;
-  }
-  @media (max-width: 410px) {
-    width: 22%;
-  }
+  @media (max-width: 2050px) { width: 8%; }
+  @media (max-width: 1370px) { width: 9%; }
+  @media (max-width: 1070px) { width: 11%; }
+  @media (max-width: 910px) { width: 13%; }
+  @media (max-width: 720px) { width: 14%; }
+  @media (max-width: 655px) { width: 17%; }
+  @media (max-width: 600px) { width: 18%; }
+  @media (max-width: 500px) { width: 26%; }
+  @media (max-width: 410px) { width: 25%; }
+  @media (max-width: 390px) { width: 30%; }
+  @media (max-width: 250px) { width: 40%; }
 `;
 
 export default css;

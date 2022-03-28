@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import MyContext from '../context/MyContext';
 
 import Navegation from '../css/Navegation';
-import logo from '../img/logo.png'
 
 function Header() {
   const { language, toggle, setToggle } = useContext(MyContext);
@@ -20,9 +19,10 @@ function Header() {
 
   return (
     <Navegation>
-      <span>
-        <img onClick={ () => window.location.replace('/', '_self') } src={ logo } alt="Logo" />
-      </span>
+      <div className="marker">
+        <img className="nome" onClick={ () => window.location.replace('/', '_self') } src={ process.env.PUBLIC_URL + `/gif/Name.gif` } alt="Nome" />
+        <img className="logo" onClick={ () => window.location.replace('/', '_self') } src={ process.env.PUBLIC_URL + `/images/Logo.png` } alt="Logo" />
+      </div>
       <div className={ toggle ? 'menu-section on' : 'menu-section' }>
 
         <div onClick={ () => setToggle(!toggle) } className="menu-toggle">
@@ -33,7 +33,7 @@ function Header() {
 
         <nav>
           { language && text('About', 'Projects','Contact') }
-          { !language && text('Sobre', 'Projetos', 'COntato') }
+          { !language && text('Sobre', 'Projetos', 'Contato') }
         </nav>
 
       </div>
