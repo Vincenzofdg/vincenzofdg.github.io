@@ -13,8 +13,7 @@ html {
 }
 
 html, body {
-  /* height: 100vh; */
-  background: black;
+  background: #1D1E2C;
   font-family: "europa", "sans-serif";
   text-rendering: optimizelegibility;
   -webkit-font-smoothing: antialiased;
