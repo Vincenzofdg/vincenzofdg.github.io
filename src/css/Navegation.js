@@ -10,7 +10,6 @@ const css = styled.div`
 
   .marker {
     margin-left: 100px;
-    background: green;
     width: 20%;
     height: 70%;
     display: flex;
@@ -77,6 +76,12 @@ const css = styled.div`
   @media (max-width: 600px) {
     nav { display: none; }
     
+    .marker {
+      margin-left: 50px;
+      width: 20%;
+      height: 90%;
+    }
+
     .menu-section {
       .menu-toggle {
         display: block;
@@ -96,7 +101,7 @@ const css = styled.div`
     }
 
     .on {
-      background-color: #7510f7;
+      background-color: #1D1E2C;
       position: absolute;
       top: 0;
       left: 0;
