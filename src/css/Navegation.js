@@ -11,7 +11,7 @@ const css = styled.div`
   .marker {
     margin-left: 100px;
     width: 20%;
-    height: 70%;
+    height: 40%;
     display: flex;
     justify-content: center;
 
@@ -19,6 +19,7 @@ const css = styled.div`
       width: 100%;
       :hover { transform: scale(1.05) }
     }
+    display: flex;
 
     .logo { display: none; }
   }
@@ -58,7 +59,11 @@ const css = styled.div`
   }
 
   // Responsividade
-  @media (max-width: 1420px) { .marker { width: 25%; } }
+  @media (max-width: 1420px) { 
+    .marker { 
+      width: 25%;
+      height: 70%;
+    } }
   @media (max-width: 900px) { .marker { width: 30%; } }
   @media (max-width: 890px) { .marker { width: 35%; } }
   @media (max-width: 745px) { 
