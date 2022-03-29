@@ -1,13 +1,15 @@
 import styled from "styled-components";
 
 const css = styled.main` 
-  height: 90%;
+  height: 87%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  align-items: center;
 
   .up-container {
     height: 35%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -21,6 +23,7 @@ const css = styled.main`
       align-items: center;
 
       h2 {
+        text-align: center;
         height: 20%;
         font-weight: bolder;
         //font-size: 3rem;
@@ -41,53 +44,45 @@ const css = styled.main`
   }
 
   .down-container {
-    //background: green;
-    width: 100%;
+    width: 80%;
+    height: 60%;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-between;
 
-    img {
-      width: 18%;
-      height: 40vh;
-      border-radius: 200px;
-      padding: 15px;
+    .left {
+      background-color: pink;
+      width: 30%;
     }
 
-    div {
-      height: 45vh;
-      width: 45%;
+    .right {
+      background-color: #2a2d43;
+      box-shadow: inset 0 0 1em #2a2d43, 0 0 1em black;
+      border-bottom: solid 8px #7929C4;
+      width: 40%;
       display: flex;
       justify-content: space-evenly;
-      align-items: center;
-
-      ul {
-        background-color: #ffffff;
-        width: 40%;
-        height: inherit;
-
-        box-shadow: 10px 5px 5px black;
-        
+      align-items: end;
+      
+      .skill {
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
-
+        justify-content: end;
+        
         p {
-          font-size: 2.4rem;
           text-align: center;
+          font-weight: bold;
+          width: 100%;
+          height: 5%;
         }
-
-        li {
-          font-size: 2rem;
-          list-style-type: none;
-          text-align: center;
-          height: 10%;
+        
+        .block {
+          background-color: #7929C4;
+          width: 75px;
         }
       }
-    }
-
-    
+    }   
   }
+
   // Responsividade
   @media (min-width: 2035px) {
     .text {
@@ -106,12 +101,14 @@ const css = styled.main`
     }
   }
   @media (max-width: 1952px) {
+    .down-container { .right { width: 50%; } }
     .text {
       h2 { font-size: 2.4rem; }
       p { font-size: 1.9rem; }
     }
   }
   @media (max-width: 1792px) {
+    .down-container { .right { width: 55%; } }
     .image {
       img { width: 230px }
     }
@@ -129,6 +126,7 @@ const css = styled.main`
     }
   }
   @media (max-width: 1498px) {
+    .down-container { .right { width: 57%; } }
     .image {
       img { width: 180px }
     }
@@ -138,6 +136,7 @@ const css = styled.main`
     }
   }
   @media (max-width: 1395px) {
+    .down-container { .right { width: 58%; } }
     .text {
       h2 { font-size: 1.8rem; }
       p { font-size: 1.4rem; }
@@ -162,6 +161,7 @@ const css = styled.main`
     }
   }
   @media (max-width: 1115px) {
+    .down-container { .right { display: none } }
     .image {
       img { width: 130px }
     }

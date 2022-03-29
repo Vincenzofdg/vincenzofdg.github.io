@@ -15,7 +15,6 @@ const css = styled.div`
   h3 {
     height: 12%;
     padding: 5px;
-
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -28,10 +27,8 @@ const css = styled.div`
   }
 
   div {
-
     width: 100%;
     height: 18%;
-
     display: flex;
     justify-content: space-evenly;
     align-items: center;
