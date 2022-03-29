@@ -26,13 +26,11 @@ const css = styled.main`
         text-align: center;
         height: 20%;
         font-weight: bolder;
-        //font-size: 3rem;
       }
 
       p {
         height: 35%;
         line-height: 1.7;
-        //font-size: 2.2rem;
 
         a {
           color: violet;
@@ -51,7 +49,7 @@ const css = styled.main`
 
     .left {
       background-color: pink;
-      width: 30%;
+      width: 50%;
     }
 
     .right {
@@ -66,8 +64,7 @@ const css = styled.main`
         .block {
           background-color: #7929C4;
           text-align: center;
-          // font-weight: bold;
-          width: 75px;
+          width: 80px;
         }
       }
     }   
