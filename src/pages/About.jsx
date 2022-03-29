@@ -44,30 +44,12 @@ function About() {
               </div>
 
               <div className="right">
-                <div className="skill">
-                  <p>HTML5</p>
-                  <div className="block" style={{height: '120px'}} />
-                </div>
-                <div className="skill">
-                  <p>CSS3</p>
-                  <div className="block" style={{height: '180px'}} />
-                </div>
-                <div className="skill">
-                  <p>JavaScript</p>
-                  <div className="block" style={{height: '380px'}} />
-                </div>
-                <div className="skill">
-                  <p>TypeScript</p>
-                  <div className="block" style={{height: '350px'}} />
-                </div>
-                <div className="skill">
-                  <p>NodeJS</p>
-                  <div className="block" style={{height: '300px'}} />
-                </div>
-                <div className="skill">
-                  <p>MySQL</p>
-                  <div className="block" style={{height: '320px'}} />
-                </div>
+                  <div className="block" style={{height: '120px'}}>HTML5</div>
+                  <div className="block" style={{height: '180px'}}>CSS3</div>
+                  <div className="block" style={{height: '380px'}}>JavaScript</div>
+                  <div className="block" style={{height: '350px'}}>TypeScript</div>
+                  <div className="block" style={{height: '300px'}}>NodeJS</div>
+                  <div className="block" style={{height: '320px'}}>MySQL</div>
               </div>
             </div>
           </PageAbout>
@@ -94,30 +76,12 @@ function About() {
               </div>
 
               <div className="right">
-                <div className="skill">
-                  <p>HTML5</p>
-                  <div className="block" style={{height: '120px'}} />
-                </div>
-                <div className="skill">
-                  <p>CSS3</p>
-                  <div className="block" style={{height: '180px'}} />
-                </div>
-                <div className="skill">
-                  <p>JavaScript</p>
-                  <div className="block" style={{height: '380px'}} />
-                </div>
-                <div className="skill">
-                  <p>TypeScript</p>
-                  <div className="block" style={{height: '350px'}} />
-                </div>
-                <div className="skill">
-                  <p>NodeJS</p>
-                  <div className="block" style={{height: '300px'}} />
-                </div>
-                <div className="skill">
-                  <p>MySQL</p>
-                  <div className="block" style={{height: '320px'}} />
-                </div>
+                  <div className="block" style={{height: '120px'}}>HTML5</div>
+                  <div className="block" style={{height: '180px'}}>CSS3</div>
+                  <div className="block" style={{height: '380px'}}>JavaScript</div>
+                  <div className="block" style={{height: '350px'}}>TypeScript</div>
+                  <div className="block" style={{height: '300px'}}>NodeJS</div>
+                  <div className="block" style={{height: '320px'}}>MySQL</div>
               </div>
             </div>
           </PageAbout>
