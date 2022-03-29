@@ -6,16 +6,13 @@ function MyProvider({ children }) {
   const [ language, setLanguage ] = useState(true); // true = english || false = portgueses
   const [ loading, setLoading ] = useState(true);
   const [ toggle, setToggle ] = useState(false);
-  // Filters:
-  const [ framework, setFramework ] = useState("");
-  const [ type, setType ] = useState("");
+  const [ type, setType ] = useState(""); // Filter
 
   const contextConteiner = {
     language, setLanguage,
     loading, setLoading,
     toggle, setToggle,
     type, setType,
-    framework, setFramework,
   };
   
   return(

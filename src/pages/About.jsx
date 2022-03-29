@@ -41,6 +41,7 @@ function About() {
             <div className="down-container">
 
               <div className="left">
+
               </div>
 
               <div className="right">
@@ -76,12 +77,12 @@ function About() {
               </div>
 
               <div className="right">
-                  <div className="block" style={{height: '120px'}}>HTML5</div>
-                  <div className="block" style={{height: '180px'}}>CSS3</div>
-                  <div className="block" style={{height: '380px'}}>JavaScript</div>
-                  <div className="block" style={{height: '350px'}}>TypeScript</div>
-                  <div className="block" style={{height: '300px'}}>NodeJS</div>
-                  <div className="block" style={{height: '320px'}}>MySQL</div>
+                  <div className="block" style={{height: '40%'}}>HTML5</div>
+                  <div className="block" style={{height: '50%'}}>CSS3</div>
+                  <div className="block" style={{height: '88%'}}>JavaScript</div>
+                  <div className="block" style={{height: '80%'}}>TypeScript</div>
+                  <div className="block" style={{height: '85%'}}>NodeJS</div>
+                  <div className="block" style={{height: '80%'}}>MySQL</div>
               </div>
             </div>
           </PageAbout>

@@ -42,21 +42,21 @@ const css = styled.main`
   }
 
   .down-container {
-    width: 80%;
+    width: 90%;
     height: 60%;
     display: flex;
     justify-content: space-between;
 
     .left {
-      background-color: pink;
-      width: 50%;
+      background-color: green;
+      width: 40%;
     }
 
     .right {
       background-color: #2a2d43;
       box-shadow: inset 0 0 1em #2a2d43, 0 0 1em black;
       border-bottom: solid 8px #7929C4;
-      width: 40%;
+      width: 50%;
       display: flex;
       justify-content: space-evenly;
       align-items: end;
