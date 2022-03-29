@@ -138,10 +138,43 @@ const css = styled.main`
     }
   }
   @media (max-width: 1395px) {
+    .text {
+      h2 { font-size: 1.8rem; }
+      p { font-size: 1.4rem; }
+    }
+  }
+  @media (max-width: 1315px) {
+    .image {
+      img { width: 150px }
+    }
+    .text {
+      h2 { font-size: 1.7rem; }
+      p { font-size: 1.3rem; }
+    }
+  }
+  @media (max-width: 1205px) {
+    .image {
+      img { width: 130px }
+    }
+    .text {
+      h2 { font-size: 1.6rem; }
+      p { font-size: 1.2rem; }
+    }
+  }
+  @media (max-width: 1115px) {
+    .image {
+      img { width: 130px }
+    }
+    .text {
+      h2 { font-size: 1.5rem; }
+      p { font-size: 1.1rem; }
+    }
+  }
+  @media (max-width: 1020px) {
     .image { display: none; }
     .text {
-      h2 { font-size: 2rem; }
-      p { font-size: 1.6rem; }
+      h2 { font-size: 1.4rem; }
+      p { font-size: 1rem; }
     }
   }
   @media (max-width: 625px) {
