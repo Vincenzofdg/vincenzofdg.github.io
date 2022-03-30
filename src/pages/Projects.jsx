@@ -15,7 +15,7 @@ function Projects() {
   const option = (v, eng, port) => {
     return (
       <option value={ v } onClick={ ({ target: { value } }) => setType(value) }>
-      { language ? eng : port }
+        { language ? eng : port }
       </option>
     )
   }
@@ -31,9 +31,9 @@ function Projects() {
         { option("Back-end", "Back-end", "Back-end") }
         { option("Test", "Test", "Teste") }
       </div>
-      
+
       <div className="projects">
-        { 
+        {
           data.sort(({name: a}, {name: b}) =>  a < b ? (-1) : (a > b ? 1 : 0)) // Ordem Alfabetica
             .filter(({ type: t }) => filter !== "" ? t === filter : t)
             .map((myProject) => <ProjectCard key={ myProject.id } theProject={ myProject }/>)
