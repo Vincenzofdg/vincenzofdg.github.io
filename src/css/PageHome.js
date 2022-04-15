@@ -32,7 +32,9 @@ const css = styled.div`
       img {
         background: #4B0082;
         border-radius: 50%;
-        width: 200px;
+        height: 100%;
+        width: 15%;
+        object-fit: contain;
       }
     }
   }
