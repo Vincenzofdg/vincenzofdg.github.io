@@ -16,11 +16,10 @@ const css = styled.div`
     justify-content: center;
 
     .nome {
-      height: 100%;
       width: 100%;
-      object-fit: contain;
-      :hover { transform: scale(1.02) }
+      :hover { transform: scale(1.05) }
     }
+    display: flex;
 
     .logo { display: none; }
   }
