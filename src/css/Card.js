@@ -7,10 +7,10 @@ const css = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 280px;
+  height: 290px;
   margin: 10px;
   overflow: hidden;
-  width: 250px;
+  width: 260px;
 
   h3 {
     height: 12%;
@@ -34,8 +34,10 @@ const css = styled.div`
     align-items: center;
 
     img {
-      width: 35px;
+      width: 40px;
       height: 35px;
+
+      :hover { transform: scale(1.05) }
     }
   }
 `

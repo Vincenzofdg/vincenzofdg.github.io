@@ -28,7 +28,10 @@ const css = styled.div`
       font-size: 1.8rem;
       height: 7%;
 
-      :hover { background: #1D1E2C; }
+      :hover { 
+        background: #1D1E2C;
+        border: 6px solid black;
+      }
     }
   }
 
