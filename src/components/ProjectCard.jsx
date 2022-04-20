@@ -2,13 +2,13 @@ import React from 'react';
 import Card from '../css/Card';
 
 function ProjectCard({ theProject }) {
-  const { name, internet, repositorie, downloadLink, gif } = theProject;
+  const { name, image, internet, repositorie, downloadLink, gif } = theProject;
 
   return ( 
     <Card>
       <h3>{ name }</h3>
       { !gif ? (
-        <img src={ process.env.PUBLIC_URL + `/images/${name}.jpg` } alt={ name } />
+        <img src={ process.env.PUBLIC_URL + `/images/${image}.jpg` } alt={ name } />
         ) : (
         <img src={ process.env.PUBLIC_URL + `/gif/${name}.gif` } alt={ name } />
       ) }
