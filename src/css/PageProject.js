@@ -6,7 +6,6 @@ const css = styled.div`
   height: 93%;
 
   .menu {
-    background: black;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -21,6 +20,7 @@ const css = styled.div`
       height: 5%;
     }
     option {
+      background: black;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -42,17 +42,17 @@ const css = styled.div`
 
   @media (max-width: 1140px) {
     .menu { width: 15% }
-    .project { width: 85% }
+    .projects { width: 85% }
   }
 
   @media (max-width: 850px) {
     .menu { width: 20% }
-    .project { width: 80% }
+    .projects { width: 80% }
   }
 
   @media (max-width: 745px) {
     .menu { display: none }
-    .project { width: 100% }
+    .projects { width: 100% }
   }
 `
 

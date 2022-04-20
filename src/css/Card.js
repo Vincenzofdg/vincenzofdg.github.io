@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 const css = styled.div`
-  background-color: white;
-  border: 4px solid rgba(0, 0, 0, 0.4);
+  background-color: #2c2f45;
+  border: 4px solid black;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
