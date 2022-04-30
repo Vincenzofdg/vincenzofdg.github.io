@@ -19,7 +19,7 @@ const css = styled.div`
       font-size: 2.2rem;
       height: 5%;
     }
-    option {
+    .topic {
       background: black;
       display: flex;
       justify-content: center;

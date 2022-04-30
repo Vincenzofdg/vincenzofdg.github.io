@@ -11,10 +11,10 @@ function Projects() {
   const { type: filter } = useContext(MyContext);
   const { language, setType } = useContext(MyContext);
 
-  const option = (v, eng, port) => {
+  const topic = (eng, port) => {
     return (
-      <option value={ v } onClick={ ({ target: { value } }) => setType(value) }>
-      { language ? eng : port }
+      <option className="topic" value={ eng } onClick={ ({ target: { value } }) => setType(value) }>
+        { language ? eng : port }
       </option>
     )
   }
@@ -25,23 +25,19 @@ function Projects() {
     <PageProject>
       <div className="menu">
         <h3>Menu</h3>
-        { option('', 'All', 'Todos') }
-        { option('JavaScript', 'JavaScript', 'JavaScript') }
-        { option('TypeScript', 'TypeScript', 'TypeScript') }
-        { option('ReactJs', 'ReactJs', 'ReactJs') }
-        { option('Docker', 'Docker', 'Docker') }
-        { option('MySQL', 'MySQL', 'MySQL') }
-        { option('Express', 'Express', 'Express') }
-        { option('Sequelize', 'Sequelize', 'Sequelize') }
-        { option('Test', 'Tests', 'Testes') }
-        { option("Study", "Studies", "Estudos") }
+        { topic('All', 'Todos') }
+        { topic('JavaScript', 'JavaScript') }
+        { topic('Python', 'Python') }
+        { topic('TypeScript', 'TypeScript') }
+        { topic('APIs', 'APIs') }
+        { topic('Study', 'Estudo') }
       </div>
       
       <div className="projects">
         { 
           data
             .sort(({name: a}, {name: b}) =>  a < b ? (-1) : (a > b ? 1 : 0))
-            .filter(({ type: t }) => filter !== "" ? t.includes(filter) : t)
+            .filter(({ type: t }) => t.includes(filter))
             .map((myProject) => {
               const { type, id, name } = myProject;
               console.log(`Name: ${ name } | Type: ${ type }`)
