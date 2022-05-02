@@ -157,7 +157,7 @@ const data = [
     type: ['All', 'JavaScript'],
   },
   {
-    id: 17,
+    id: 18,
     name: 'Star Wars Planets',
     gif: true,
     internet: `https://${USER}.github.io/Star-Wars-Planets`,
