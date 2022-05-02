@@ -96,8 +96,7 @@ const data = [
   {
     id: 11,
     name: 'MyTunes',
-    image: 'Working',
-    gif: false,
+    gif: true,
     internet: `https://${USER}.github.io/MyTunes`,
     repositorie: `${URL}${USER}/MyTunes`,
     downloadLink: `${URL}${USER}/MyTunes/${MASTER}`,
