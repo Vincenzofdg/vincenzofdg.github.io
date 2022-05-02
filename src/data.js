@@ -147,6 +147,15 @@ const data = [
     downloadLink: `${URL}${USER}/Study_-_Shell_Script/${MASTER}`,
     type: ['Study'],
   },
+  {
+    id: 17,
+    name: 'Menu Recipes',
+    gif: true,
+    internet: `https://${USER}.github.io/Menu-Recipes`,
+    repositorie: `${URL}${USER}/Menu-Recipes`,
+    downloadLink: `${URL}${USER}/Menu-Recipes/${MASTER}`,
+    type: ['All', 'JavaScript'],
+  },
 ]
 
 export default data;
