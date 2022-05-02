@@ -165,6 +165,15 @@ const data = [
     downloadLink: `${URL}${USER}/Star-Wars-Planets/${MASTER}`,
     type: ['All', 'JavaScript'],
   },
+  {
+    id: 19,
+    name: 'International Wallet',
+    gif: true,
+    internet: `https://${USER}.github.io/International-Wallet`,
+    repositorie: `${URL}${USER}/International-Wallet`,
+    downloadLink: `${URL}${USER}/International-Wallet/${MASTER}`,
+    type: ['All', 'JavaScript'],
+  },
 ]
 
 export default data;
