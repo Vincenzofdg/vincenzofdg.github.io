@@ -156,6 +156,15 @@ const data = [
     downloadLink: `${URL}${USER}/Menu-Recipes/${MASTER}`,
     type: ['All', 'JavaScript'],
   },
+  {
+    id: 17,
+    name: 'Star Wars Planets',
+    gif: true,
+    internet: `https://${USER}.github.io/Star-Wars-Planets`,
+    repositorie: `${URL}${USER}/Star-Wars-Planets`,
+    downloadLink: `${URL}${USER}/Star-Wars-Planets/${MASTER}`,
+    type: ['All', 'JavaScript'],
+  },
 ]
 
 export default data;
