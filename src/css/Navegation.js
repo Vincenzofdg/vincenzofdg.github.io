@@ -91,7 +91,7 @@ const css = styled.div`
         width: 40px;
         height: 30px;
         margin-top: 10px;
-        margin-right: 20px;
+        margin-right: 10px;
   
         .one, .two, .three {
           background-color: #fff;
@@ -124,7 +124,7 @@ const css = styled.div`
           display: flex;
           flex-direction: column;
           justify-content: space-evenly;
-          height: 50vh;
+          height: 60vh;
 
           li { 
             font-weight: bolder; 
@@ -139,8 +139,8 @@ const css = styled.div`
 
       .menu-toggle {
         position: absolute;
-        margin-right: 65px;
-        margin-top: 18px;
+        margin-right: 50px;
+        margin-top: 10px;
         right: 0;
         top: 15;
 
