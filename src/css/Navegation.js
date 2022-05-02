@@ -27,9 +27,7 @@ const css = styled.div`
   .menu-section {
     margin-right: 10%;
     
-    .menu-toggle {
-      display: none;
-    }
+    .menu-toggle { display: none; }
 
     nav {
       ul {
@@ -92,6 +90,7 @@ const css = styled.div`
         display: block;
         width: 40px;
         height: 30px;
+        margin-top: 10px;
         margin-right: 20px;
   
         .one, .two, .three {

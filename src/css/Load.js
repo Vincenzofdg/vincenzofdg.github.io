@@ -16,11 +16,7 @@ const css = styled.div`
     height: 50px;
   }
 
-  @keyframes is-rotating {
-    to {
-      transform: rotate(1turn);
-    }
-  }
+  @keyframes is-rotating { to { transform: rotate(1turn); } }
 `;
 
 export default css;
