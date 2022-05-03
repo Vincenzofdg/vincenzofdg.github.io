@@ -11,6 +11,7 @@ const css = styled.div`
     display: flex;
     flex-direction: column;
     
+
     .forms {
       display: flex;
       flex-direction: row;
@@ -59,13 +60,32 @@ const css = styled.div`
     
           :hover { transform: scale(1.05) }
         }
-      }
-    }
 
-    @media (max-width: 1930px) {
-      background: red;
-      .icons {
-        width: 30%;
+        @media (max-width: 1930px) {
+          width: 30%;
+          img { width: 70px; height: 70px; }
+        }
+
+        @media (max-width: 1450px) {
+          width: 35%;
+          img { width: 65px; height: 65px; }
+        }
+
+        @media (max-width: 1130px) {
+          width: 40%;
+          img { width: 60px; height: 60px; }
+        }
+
+        @media (max-width: 890px) {
+          width: 45%;
+          img { width: 55px; height: 55px; }
+        }
+
+        @media (max-width: 740px) { width: 50%; }
+        @media (max-width: 670px) { width: 55%; }
+        @media (max-width: 600px) { width: 70%; }
+        @media (max-width: 500px) { width: 75%; }
+        @media (max-width: 450px) { width: 80%; }
       }
     }
   }
