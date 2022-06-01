@@ -174,6 +174,15 @@ const data = [
     downloadLink: `${URL}${USER}/International-Wallet/${MASTER}`,
     type: ['All', 'JavaScript'],
   },
+    {
+    id: 20,
+    name: 'Countdown Timer',
+    gif: true,
+    internet: `https://${USER}.github.io/Countdown_Timer`,
+    repositorie: `${URL}${USER}/Countdown_Timer`,
+    downloadLink: `${URL}${USER}/Countdown_Timer/${MASTER}`,
+    type: ['All', 'JavaScript'],
+  },
 ]
 
 export default data;
