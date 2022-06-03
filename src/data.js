@@ -7,9 +7,9 @@ const data = [
     id: 1,
     name: 'DEV Art',
     gif: true,
-    internet: `https://${USER}.github.io/DEVartt`,
-    repositorie: `${URL}${USER}/DEVartt`,
-    downloadLink: `${URL}${USER}/DEVartt/${MASTER}`,
+    internet: `https://${USER}.github.io/DEVart`,
+    repositorie: `${URL}${USER}/DEVart`,
+    downloadLink: `${URL}${USER}/DEVart/${MASTER}`,
     type: ['All', 'JavaScript'],
   },
   {
