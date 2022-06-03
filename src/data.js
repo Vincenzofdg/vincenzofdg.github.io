@@ -5,11 +5,11 @@ const MASTER = 'archive/refs/heads/master.zip';
 const data = [
   {
     id: 1,
-    name: 'Pixels Art',
+    name: 'DEV Art',
     gif: true,
-    internet: `https://${USER}.github.io/Pixels_Art`,
-    repositorie: `${URL}${USER}/Pixels-Art`,
-    downloadLink: `${URL}${USER}/Pixels-Art/${MASTER}`,
+    internet: `https://${USER}.github.io/DEVartt`,
+    repositorie: `${URL}${USER}/DEVartt`,
+    downloadLink: `${URL}${USER}/DEVartt/${MASTER}`,
     type: ['All', 'JavaScript'],
   },
   {
