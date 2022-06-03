@@ -7,7 +7,7 @@ const data = [
     id: 1,
     name: 'Pixels Art',
     gif: true,
-    internet: `https://${USER}.github.io/Pixels-Art`,
+    internet: `https://${USER}.github.io/Pixels_Art`,
     repositorie: `${URL}${USER}/Pixels-Art`,
     downloadLink: `${URL}${USER}/Pixels-Art/${MASTER}`,
     type: ['All', 'JavaScript'],
